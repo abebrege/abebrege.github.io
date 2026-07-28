@@ -1,13 +1,10 @@
 import { Link } from "react-router-dom";
 import { projects } from "../content/projects";
-import { devlogs } from "../lib/devlog";
 import ProjectCard from "../components/ProjectCard";
-import DevlogListItem from "../components/DevlogListItem";
 import "./page.css";
 
 export default function Home() {
   const featured = projects.filter((p) => p.featured);
-  const recent = devlogs.slice(0, 3);
 
   return (
     <section className="page">
@@ -40,20 +37,6 @@ export default function Home() {
           <div className="card-stack">
             {featured.map((project) => (
               <ProjectCard key={project.slug} project={project} />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {recent.length > 0 && (
-        <section className="section">
-          <div className="section-head">
-            <h2>Recent devlog</h2>
-            <Link to="/devlog">All posts →</Link>
-          </div>
-          <div className="card-stack">
-            {recent.map((post) => (
-              <DevlogListItem key={post.slug} post={post} />
             ))}
           </div>
         </section>

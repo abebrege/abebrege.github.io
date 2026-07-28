@@ -21,7 +21,6 @@ export const profile = {
 export const nav: NavItem[] = [
   { label: "Home", to: "/", end: true },
   { label: "Projects", to: "/projects" },
-  { label: "Devlog", to: "/devlog" },
 ];
 
 export const externalLinks: ExternalLink[] = [
