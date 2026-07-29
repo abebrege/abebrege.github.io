@@ -1,17 +1,17 @@
 import type { Project } from "../lib/types";
 
 export const projects: Project[] = [
-  {
-    slug: "MASC (fork)",
-    name: "MASC (fork)",
-    summary: "Updating the MASC project for a future development effort.",
-    description: "",
-    language: "Java",
-    languageColor: "#ED8B00",
-    topics: ["security", "cryptography-api-use"],
-    repoUrl: "https://github.com/abebrege/MASC",
-    featured: true,
-  },
+  // {
+  //   slug: "MASC (fork)",
+  //   name: "MASC (fork)",
+  //   summary: "Updating the MASC project for a future development effort.",
+  //   description: "",
+  //   language: "Java",
+  //   languageColor: "#ED8B00",
+  //   topics: ["security", "cryptography-api-use"],
+  //   repoUrl: "https://github.com/abebrege/MASC",
+  //   featured: true,
+  // },
   {
     slug: "scrape-byllm",
     name: "scrape-byLLM",
