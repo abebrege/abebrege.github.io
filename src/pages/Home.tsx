@@ -10,11 +10,10 @@ export default function Home() {
     <section className="page">
       <header className="intro">
         <p>
-          I research the effective use of LLMs to improve software development processes in my free time
+          I enjoy researching the effective use of LLMs to improve software development processes in my free time
           and I work full-time building tools for security and privacy at <a href="https://www.northcrossgroup.com" target="_blank" rel="noopener noreferrer">Northcross Group</a>.
-          Here, I am currently specializing in building tools to assist in the post-quantum migration process by leveraging LLMs. 
-          Most recently I have been investigating the use of byLLM in webscraping and data extraction, intersecting my current
-          research direction with my previous experience in web scraping.
+          Here, I am currently specializing in building tools to assist the post-quantum migration process while additionally remediating cryptographic API misuse.
+          Recently, I built a <a href="https://github.com/abebrege/scrape-byLLM">small webscraping library</a> in Jac (Python) to improve the user experience of scraping via LLMs while also reducing the cost of each scrape.
         </p>
         <p>
           In the past, I have taken interest in the growing area of research on providing high-level abstractions in quantum programming languages.
@@ -24,7 +23,7 @@ export default function Home() {
           programming environment with the goal of eventually applying these techniques to the quantum programming environment.
         </p>
         <p>
-          In all, I am interested in providing a more productive and efficient user experience for developers of varying skill levels, and I believe that LLMs can be a powerful tool in achieving this goal.
+          No matter the topic, I am strongly interested in providing a better user experience for developers and improving the development process.
         </p>
       </header>
 
