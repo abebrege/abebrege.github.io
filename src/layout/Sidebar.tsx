@@ -41,8 +41,8 @@ export default function Sidebar() {
           className="avatar"
           src={profile.avatar}
           alt={profile.name}
-          width={96}
-          height={96}
+          width={320}
+          height={240}
         />
         <h1 className="profile-name">{profile.name}</h1>
         <p className="profile-handle muted">@{profile.handle}</p>
